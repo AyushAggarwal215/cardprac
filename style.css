@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 7px;
+  width: 300px;
+  /*height: 410px;*/
+}
+.image_mountain {
+  padding: 10px;
+  position: relative;
+  justify-content: center;
+}
+.image_mountain img {
+  border-radius: 6px;
+}
+.genre {
+  padding: 0 10px;
+}
+.genre span {
+  padding: 0 5px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  color: gray;
+}
+.title_of_card {
+  padding: 5px 10px;
+}
+
+p {
+  padding: 5px 10px;
+  font-size: 81%;
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.readmore {
+    padding: 10px;
+  text-align: center;
+}
+.readmore button{
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: #c4b6f359;
+    color: rgb(111 111 219);
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+.readmore button:hover{
+    background-color: #8e6ef859;
+}
